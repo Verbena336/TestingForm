@@ -1,0 +1,95 @@
+.formContent {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-bottom: 6.1rem;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  cursor: default;
+  max-width: 30rem;
+}
+
+.input {
+  max-width: 30rem;
+  border: 1px solid #00000029;
+  border-radius: 0.4rem;
+  padding: 1.2rem;
+  font-family: inherit;
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.48);
+  cursor: default;
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.button {
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding: 1.1rem 1.6rem;
+  background-color: #5558fa;
+  border-radius: 0.4rem;
+}
+
+.outline {
+  background-color: #ffffff;
+  border: 1.5px solid #5558fa;
+  color: #5558fa;
+}
+
+.tip {
+  color: rgba(0, 0, 0, 0.48);
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  height: 1.6rem;
+}
+
+.dropdown {
+  position: absolute;
+  top: 102%;
+  left: 0;
+  flex-direction: column;
+  gap: 1.6rem;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px 0;
+  display: none;
+}
+
+.select {
+  background-image: url('../../../public/assets/icons/Arrow.svg');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 12px) 50%;
+  position: relative;
+}
+
+.open {
+  display: flex;
+}
+
+.radioLabel {
+  cursor: pointer;
+  padding: 0 12px;
+  color: #333333;
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.585);
+  }
+}
+
+.radio {
+  visibility: hidden;
+}

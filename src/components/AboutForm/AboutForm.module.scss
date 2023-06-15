@@ -1,0 +1,67 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5.7rem;
+  margin-bottom: 6.4rem;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  position: relative;
+  cursor: default;
+}
+
+.textarea {
+  border: 1px solid #00000029;
+  border-radius: 0.4rem;
+  padding: 1.2rem;
+  font-family: inherit;
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.48);
+  cursor: default;
+  position: relative;
+  width: 100%;
+  resize: vertical;
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.button {
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding: 1.2rem 1.6rem;
+  background-color: #5558fa;
+  border-radius: 0.4rem;
+}
+
+.outline {
+  background-color: #ffffff;
+  border: 1.5px solid #5558fa;
+  color: #5558fa;
+}
+
+.tip {
+  color: rgba(0, 0, 0, 0.48);
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  height: 1.6rem;
+}
+
+.length {
+  color: rgba(0, 0, 0, 0.48);
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  position: absolute;
+  right: 10px;
+  bottom: 1rem;
+}

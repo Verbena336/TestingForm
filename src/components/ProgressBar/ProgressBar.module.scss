@@ -1,0 +1,96 @@
+.stepDot:before {
+  content: '';
+  position: absolute;
+  left: -97%;
+  display: block;
+  width: 150%;
+  height: 8px;
+  background-color: #ebebeb;
+}
+
+.current:before {
+  background-color: #5558fa;
+}
+
+.finished:before {
+  background-color: #5558fa;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stepDot {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 16px;
+}
+
+.step {
+  position: absolute;
+  text-align: center;
+  display: block;
+  width: 16px;
+  top: 100%;
+  color: #666666;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  margin-top: 1.2rem;
+}
+
+.done {
+  color: #5558fa;
+}
+
+.stepDot:after {
+  content: '';
+  position: absolute;
+  text-align: center;
+  line-height: 18px;
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #a6a6a6;
+  z-index: 1;
+}
+
+.current:after {
+  background-color: #ffffff;
+  border: 6.4px solid #5558fa;
+}
+
+.finished:after {
+  content: url('../../../public/assets/icons/Check.svg');
+  background-color: #5558fa;
+}
+
+.stepDot:last-child {
+  justify-content: flex-end;
+}
+
+.stepDot:last-child:before {
+  left: -53%;
+}
+
+.stepDot:first-child {
+  justify-content: flex-start;
+}
+
+.stepDot:first-child:before {
+  content: none;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-bottom: 9.9rem;
+}

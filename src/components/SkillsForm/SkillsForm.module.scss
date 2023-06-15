@@ -1,0 +1,100 @@
+.formContent {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-bottom: 6.4rem;
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.button {
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding: 1.2rem 1.6rem;
+  background-color: #5558fa;
+  border-radius: 0.4rem;
+}
+
+.outline {
+  background-color: #ffffff;
+  border: 1.5px solid #5558fa;
+  color: #5558fa;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.legend {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  cursor: default;
+  max-width: 30rem;
+}
+
+.input {
+  width: 30rem;
+  border: 1px solid #00000029;
+  border-radius: 0.4rem;
+  padding: 1.2rem;
+  font-family: inherit;
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.48);
+  cursor: default;
+}
+
+.buttonPlus {
+  border: solid 1.5px #5558fa;
+  width: 4.4rem;
+  height: 4.4rem;
+  background-image: url('../../../public/assets/icons/Plus.svg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-color: transparent;
+  border-radius: 0.4rem;
+}
+
+.buttonRemove {
+  background-image: url('../../../public/assets/icons/Remove.svg');
+  width: 2rem;
+  height: 2rem;
+  background-color: transparent;
+}
+
+.field {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.checkboxGroup,
+.radioGroup {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.3rem;
+}
+
+.checkbox,
+.radio {
+  accent-color: #5558fa;
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.label {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #333333;
+  font-size: 1.4rem;
+  line-height: 20px;
+}

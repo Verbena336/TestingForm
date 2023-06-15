@@ -1,0 +1,69 @@
+.modal {
+  border-radius: 1.2rem;
+  width: 46rem;
+  height: 32rem;
+  background-color: #fff;
+  position: fixed;
+  z-index: 150;
+  top: calc(50% - 16rem);
+  left: calc(50% - 23rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3.2rem 3.2rem 3.8rem 3.2rem;
+  justify-content: space-between;
+  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.08);
+  @media screen and (max-width: 520px) {
+    width: 28rem;
+    left: calc(50% - 14rem);
+  }
+}
+
+.successButton {
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding: 1.2rem 1.6rem;
+  background-color: #5558fa;
+  border-radius: 0.4rem;
+}
+
+.errorButton {
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding: 1.2rem 1.6rem;
+  background-color: #5558fa;
+  border-radius: 0.4rem;
+  align-self: flex-end;
+}
+
+.image {
+  width: 8rem;
+  height: 8rem;
+}
+
+.title {
+  color: #333333;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.closeButton {
+  background-image: url('../../../public/assets/icons/Close.svg');
+  width: 2.8rem;
+  height: 2.8rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50px;
+}
+
+.titleWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
